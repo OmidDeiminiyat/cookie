@@ -1,0 +1,42 @@
+  body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    .checkbox-group {
+      margin-bottom: 20px;
+      border: 1px solid;
+      background-color: #1f1e1e3a;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .cookie-message {
+      display: none;
+      margin-top: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      background-color: #e9eaf0;
+    }
+
+
+   .checkbox-group label input[type="checkbox"] {
+        background-color: rgb(136, 155, 223);
+
+    }
+
+    .checkbox-group label[type="checkbox"]:hover {
+        box-shadow: 0px 10px 77px -3px rgba(0,0,0,0.1);
+    }
+    button{
+        background-color: rgba(255, 0, 0, 0.711);
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+    }
+button:hover {
+    box-shadow: -1px 3px 27px -8px rgba(0,0,0,0.75);
+}
